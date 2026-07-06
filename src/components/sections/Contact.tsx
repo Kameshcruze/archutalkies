@@ -10,12 +10,15 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate API call
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setFormData({ name: "", email: "", phone: "", message: "" });
-      alert("Message sent successfully!");
-    }, 1500);
+    
+    const phoneNumber = "91945663318"; 
+    const text = `Hi Archana!\n\n*Name:* ${formData.name}\n*Email:* ${formData.email}\n*Phone:* ${formData.phone || "Not provided"}\n*Message:* ${formData.message}`;
+    const encodedText = encodeURIComponent(text);
+    
+    window.open(`https://wa.me/${phoneNumber}?text=${encodedText}`, "_blank");
+    
+    setIsSubmitting(false);
+    setFormData({ name: "", email: "", phone: "", message: "" });
   };
 
   return (
