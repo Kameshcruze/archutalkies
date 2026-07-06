@@ -56,7 +56,7 @@ export default function About() {
             
             <div className="grid grid-cols-2 gap-6">
               <div className="glass p-6 rounded-2xl">
-                <div className="text-3xl font-bold text-white mb-1">100K</div>
+                <div className="text-3xl font-bold text-white mb-1">1 Million</div>
                 <div className="text-sm text-secondaryText uppercase tracking-wider">Goal</div>
               </div>
               <div className="glass p-6 rounded-2xl">

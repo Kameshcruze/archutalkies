@@ -62,6 +62,9 @@ export default function Hero() {
           <Typewriter
             options={{
               strings: [
+                "Comedy Content",
+                "Motivator",
+                "Speaker",
                 "Digital Creator",
                 "Influencer",
                 "Lifestyle Creator",
