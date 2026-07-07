@@ -4,9 +4,9 @@ import { Quote } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const TESTIMONIALS = [
-  { id: 1, name: "Brand X", avatar: "B", review: "Archana is incredible to work with. Her audience engagement is unmatched and the content quality exceeded our expectations." },
-  { id: 2, name: "Fashion Co", avatar: "F", review: "One of the most professional creators we've partnered with. Fast delivery and high converting content." },
-  { id: 3, name: "Local Cafe", avatar: "C", review: "Our foot traffic doubled after her reel went viral. Highly recommend her for local business promotions!" },
+  { id: 1, name: "Anurah Clothings", avatar: "A", review: "Archana is incredible to work with. Her audience engagement is unmatched and the content quality exceeded our expectations." },
+  { id: 2, name: "Nisha Beauty Parlour", avatar: "N", review: "One of the most professional creators we've partnered with. Fast delivery and high converting content." },
+  { id: 3, name: "Udupi Cafe", avatar: "U", review: "Our foot traffic doubled after her reel went viral. Highly recommend her for local business promotions!" },
 ];
 
 export default function Testimonials() {

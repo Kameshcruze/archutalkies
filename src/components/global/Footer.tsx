@@ -10,10 +10,10 @@ export default function Footer() {
         </div>
         
         <div className="flex items-center gap-6">
-          <a href="#" className="text-secondaryText hover:text-white transition-colors hover-target cursor-pointer">
+          <a href="https://www.instagram.com/archutalkiesofficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="text-secondaryText hover:text-white transition-colors hover-target cursor-pointer">
             <FaInstagram size={24} />
           </a>
-          <a href="#" className="text-secondaryText hover:text-white transition-colors hover-target cursor-pointer">
+          <a href="https://youtube.com/@archanaramesh-h1i?si=SDsbgp1GpINy2rNF" target="_blank" rel="noopener noreferrer" className="text-secondaryText hover:text-white transition-colors hover-target cursor-pointer">
             <FaYoutube size={24} />
           </a>
           <a href="#" className="text-secondaryText hover:text-white transition-colors hover-target cursor-pointer">

@@ -94,10 +94,10 @@ export default function Hero() {
             Let's Collaborate
           </a>
 
-          <a href="#" className="hover-target p-4 glass text-white rounded-full hover:bg-white/10 hover:scale-110 transition-all cursor-pointer">
+          <a href="https://www.instagram.com/archutalkiesofficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="hover-target p-4 glass text-white rounded-full hover:bg-white/10 hover:scale-110 transition-all cursor-pointer">
             <FaInstagram size={20} />
           </a>
-          <a href="#" className="hover-target p-4 glass text-white rounded-full hover:bg-white/10 hover:scale-110 transition-all cursor-pointer">
+          <a href="https://youtube.com/@archanaramesh-h1i?si=SDsbgp1GpINy2rNF" target="_blank" rel="noopener noreferrer" className="hover-target p-4 glass text-white rounded-full hover:bg-white/10 hover:scale-110 transition-all cursor-pointer">
             <FaYoutube size={20} />
           </a>
         </motion.div>
@@ -117,13 +117,13 @@ export default function Hero() {
           </div>
           <div className="flex flex-col items-center">
             <div className="text-3xl md:text-4xl font-bold text-white mb-2">
-              <CountUp end={167} duration={3} suffix="+" />
+              <CountUp end={172} duration={3} suffix="+" />
             </div>
             <div className="text-sm text-secondaryText uppercase tracking-wider font-medium">Posts</div>
           </div>
           <div className="flex flex-col items-center">
             <div className="text-3xl md:text-4xl font-bold text-white mb-2">
-              <CountUp end={1} duration={3} suffix="M+" />
+              <CountUp end={10} duration={3} suffix="M+" />
             </div>
             <div className="text-sm text-secondaryText uppercase tracking-wider font-medium">Views</div>
           </div>
