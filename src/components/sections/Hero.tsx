@@ -35,10 +35,7 @@ export default function Hero() {
           
           <div className="w-full h-full rounded-full bg-background overflow-hidden relative border-4 border-background">
             <div className="absolute inset-0 bg-white/5"></div>
-            {/* Real image would go here. Using a gradient placeholder with icon for now */}
-            <div className="w-full h-full bg-gradient-to-br from-primary/30 to-accent/30 flex items-center justify-center">
-              <span className="text-6xl font-light text-white/50">A</span>
-            </div>
+            <img src="/profile.jpeg" alt="Archana" className="w-full h-full object-cover rounded-full" />
           </div>
         </motion.div>
 
@@ -114,7 +111,7 @@ export default function Hero() {
         >
           <div className="flex flex-col items-center">
             <div className="text-3xl md:text-4xl font-bold text-white mb-2">
-              <CountUp end={54} duration={3} suffix="K+" />
+              <CountUp end={59} duration={3} suffix="K+" />
             </div>
             <div className="text-sm text-secondaryText uppercase tracking-wider font-medium">Followers</div>
           </div>

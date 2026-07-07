@@ -16,10 +16,7 @@ export default function About() {
             className="relative"
           >
             <div className="aspect-[4/5] rounded-3xl overflow-hidden glass p-2">
-              <div className="w-full h-full rounded-2xl bg-gradient-to-br from-white/10 to-transparent flex items-center justify-center border border-white/5 relative overflow-hidden">
-                <div className="absolute inset-0 bg-primary/10 mix-blend-overlay"></div>
-                <span className="text-white/30 text-xl font-light tracking-widest uppercase">Portrait Image</span>
-              </div>
+              <img src="/profile.jpeg" alt="Archana Portrait" className="w-full h-full rounded-2xl object-cover border border-white/5" />
             </div>
             
             <motion.div

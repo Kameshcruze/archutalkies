@@ -11,7 +11,7 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     
-    const phoneNumber = "919585262522"; 
+    const phoneNumber = "919345663318"; 
     const text = `Hi Archana!\n\n*Name:* ${formData.name}\n*Email:* ${formData.email}\n*Phone:* ${formData.phone || "Not provided"}\n*Message:* ${formData.message}`;
     const encodedText = encodeURIComponent(text);
     
@@ -76,7 +76,7 @@ export default function Contact() {
               value={formData.phone}
               onChange={(e) => setFormData({...formData, phone: e.target.value})}
               className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors"
-              placeholder="+91 9585262522"
+              placeholder="+91 9345663318"
             />
           </div>
 

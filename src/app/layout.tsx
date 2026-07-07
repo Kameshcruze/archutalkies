@@ -6,6 +6,7 @@ import SmoothScroll from "@/components/global/SmoothScroll";
 import LoadingScreen from "@/components/global/LoadingScreen";
 import Navbar from "@/components/global/Navbar";
 import Footer from "@/components/global/Footer";
+import FloatingWhatsApp from "@/components/global/FloatingWhatsApp";
 
 const poppins = Poppins({ 
   subsets: ["latin"], 
@@ -32,6 +33,7 @@ export default function RootLayout({
           <Navbar />
           <main className="min-h-screen relative z-10">{children}</main>
           <Footer />
+          <FloatingWhatsApp />
         </SmoothScroll>
       </body>
     </html>
